@@ -16,17 +16,6 @@ include 'koneksi.php';
        position: static;
 
     }
-    .notify-badge{
-    position: absolute;
-    right:15px;
-    top:234px;
-    background:red;
-    text-align: right;
-    border-radius: 20px 0px 0px 20px;
-    color:white;
-    padding:0px 10px;
-    font-size:15px;
-}
     .header h1 {
             margin-top: 5px;
         }
@@ -37,8 +26,8 @@ include 'koneksi.php';
 <!-- konten -->
 <section class="konten">
 	<div class="container">
-        <div class="header">
-		<h1>Produk Terbaru</h1><hr>
+        <div class="header" style="margin-top: 70px">
+        <h1>Produk Terbaru</h1><hr>
 		<div class="row">
             <?php $ambil = $koneksi->query("SELECT * FROM produk"); ?>
             <?php while ($perproduk = $ambil->fetch_assoc()){; ?>

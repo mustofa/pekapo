@@ -8,7 +8,7 @@
 
 }
 </style>
-<nav class="navbar navbar-default" style="background-color: #808080;">
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #808080;">
 		<div class="container">
 		<ul class="nav navbar-nav navbar-left">
 <a class ="navbar-brand" href="index.php" data-toggle="tooltip" title="Beranda">

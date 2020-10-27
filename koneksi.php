@@ -1,3 +1,3 @@
 <?php 
-$koneksi = new mysqli("localhost","root","","toko");
+$koneksi = new mysqli("localhost","root","","pekapo");
 ?>

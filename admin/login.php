@@ -1,7 +1,7 @@
 ﻿<?php
 session_start();
 // koneksi
-$koneksi = new mysqli("localhost","root","","toko");
+$koneksi = new mysqli("localhost","root","","pekapo");
 
 ?>
 <!DOCTYPE html>
